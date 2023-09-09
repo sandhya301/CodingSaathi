@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 10;
+    background-color: #936e9e30;
+    background-image: url(https://th.bing.com/th/id/R.9a99d73d2fddae8d8608dd19236fde70?rik=RYoGAzPfnlYG1A&riu=http%3a%2f%2fwww.catholicdigest.com%2fwp-content%2fuploads%2f2018%2f09%2fiStock-826561288.jpg&ehk=bil8Q0lTVsy4XIM651v8NdeRoux4F0AojUlMkPXboao%3d&risl=&pid=ImgRaw&r=0);
+    color: rgb(5, 57, 103);
+    text-align: center;
+  }
+
+  #container {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.5);
+  }
+
+  #task-list {
+    list-style-type:georgian;
+    padding: 0;
+    color: rgb(243, 232, 232);
+    background-color: rgba(87, 77, 174, 0.872);
+  }
+
+  .task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .task-item:last-child {
+    border-bottom: none;
+  }
+
+  .task-item input[type="checkbox"] {
+    margin-right: 15px;
+    padding: auto;
+  }
+  .completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
